@@ -1,0 +1,358 @@
+header{
+    background-color: #04342C;
+    padding: 10px 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(243, 232, 232, 0.931);
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#aguila{
+    width: 5%;
+    position: relative;
+    left: 18px;
+}
+
+#sistema{
+    position: absolute;
+    top: -8px;
+    right:740px;
+    font-size: 8px;
+}
+
+nav{
+    position: absolute;
+    top: 15px;
+    right:50px;
+}
+
+nav li{
+    display: inline;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 40px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: lightgray;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    margin-left: 200px;
+    padding: 50px;
+    align-items: center;
+}
+
+.tamanio{
+    width: 50%;
+    padding: 30px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1%;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 10px;   
+}
+
+.primero{
+    background-color: #2FCDD2;
+}
+
+.segundo{
+    background-color: #90EF96;
+}
+
+.tercero{
+    background-color: #EEC360;
+}
+
+.cuarto{
+    background-color: #AA85F0;
+}
+
+.quinto{
+    background-color: #7FA8F0;
+}
+
+.sexto{
+    background-color: #F59075;
+}
+
+.productos li:hover{
+    border-color: rgb(36, 255, 36);
+}
+
+.productos li:active{
+    border-color: #04342C;
+}
+
+.productos h2{
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    transition: .4s all;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+    color:azure;
+}
+
+.final{
+    width: 4%;
+}
+
+footer{
+    text-align: center;
+    background-color: #04342C;
+    padding: 15px;
+}
+
+.recordatorio{
+    padding: 5px;
+    font-size: 9px;
+    color:whitesmoke;
+}
+
+.main_soporte{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 20px;
+    width: 35%;
+}
+
+.enviar{
+    width: 30%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #04342C;
+    margin-left: 90px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: #0d574b;
+    transform: scale(1.03);
+}
+
+.enviar:active{
+    background-color: black;
+}
+
+
+.Horario{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+
+
+thead{
+    background-color: #0d574b;
+    color:aliceblue;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*Aquí comienza el inicio*/
+
+body{
+    background-color: rgba(245, 245, 245, 0.894);
+}
+
+#sistema2{
+    position: absolute;
+    top: -8px;
+    right:770px;
+    font-size: 11px;
+}
+
+.caja2{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.principio{
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    height: 430px;
+}
+
+.principio p{
+    padding: 30px;
+}
+
+
+.diferencias-contenido{
+    padding-top: 20px;
+    background-color: beige;
+}
+
+
+.diferencias-lista{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 65%;
+    font-style: italic;
+    padding: 2%;
+}
+
+
+
+.fca{
+    width: 7%;
+    float:right;
+    margin-right: 40px;
+}
+
+
+.main_soporte label{
+
+padding-top: 2%;
+}
+
+
+.primero a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.primero a:hover{
+    color: lightgray;
+}
+
+
+.segundo a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.segundo a:hover{
+    color: lightgray;
+}
+
+.tercero a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.tercero         a:hover{
+    color: lightgray;
+}
+
+.cuarto a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.cuarto a:hover{
+    color: lightgray;
+}
+
+.quinto a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.quinto a:hover{
+    color: lightgray;
+}
+
+.sexto a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.sexto a:hover{
+    color: lightgray;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .caja, .caja2, .principio, .diferencias-contenido, .diferencias-lista, .recordatorio{
+        width: auto;
+    }
+}

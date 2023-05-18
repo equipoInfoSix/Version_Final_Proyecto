@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Insertar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="style_menu.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img id="aguila" src="images/aguila.png" alt="Escudo de México"></h1>
+            <nav>
+                <ul>
+                    <li id="sistema">Sistema de Gestión de Documentación de Bancos</li>
+                    <li><a href="menu.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main_soporte">
+        <form action="Update.php" method="POST">
+            <label>Numero de Sucursal: </label>
+            <input type="text" name="noSucursal" required placeholder="Ej. 2765">
+
+            <label>Etapa: </label>
+            <input type="text" name="etapa" required placeholder="Ej. 2">
+
+          
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+        </form>
+
+       
+    </main>
+
+    <footer>
+        <img class="final" src="images/admin.png">
+        <p class="recordatorio">Recuerda, no es un sitio oficial, es sólo una prueba</p>
+    </footer>
+
+</body>
+
+</html>

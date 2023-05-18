@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Soporte</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="style_menu.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img id="aguila" src="images/aguila.png" alt="Escudo de México"></h1>
+            <nav>
+                <ul>
+                    <li id="sistema">Sistema de Gestión de Documentación de Bancos</li>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main_soporte">
+        <form>
+            <label for="nombreApellido">Ingresa tu nombre y apellido:</label>
+            <input type="text" id="nombreApellido" class="input-padron" required placeholder="Ej. Julio Chávez">
+
+            <label for="correo">Ingresa tu correo electrónico:</label>
+            <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Ingresa tu número de teléfono:</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX)-XX-XX-XX-XX">
+
+            <fieldset>
+                <legend>¿Qué sucedió?</legend>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+                <legend>¿En dónde podemos contactarte?</legend>
+
+                <label for="correo_email"><input type="radio" value="email" id="correo_email" >Correo electrónico</label>
+                
+                <label for="correo_telefono"><input type="radio" value="tel" id="correo_telefono" checked>Teléfono</label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>¿En qué horario prefieres ser atendido?</legend>
+
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+                
+            </fieldset>    
+
+
+            <input type="submit" value="Enviar formulario" class="enviar ">
+
+
+        </form>
+
+        <label class="Horario">Horarios de atención</label>
+
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>08:00 a 18:00</td>
+            </tr>
+
+            <tr>
+                <td>Miércoles</td>
+                <td>08:00 a 18:00</td>
+            </tr>
+
+            <tr>
+                <td>Viernes</td>
+                <td>08:00 a 18:00</td>
+            </tr>
+        </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img class="final" src="images/admin.png">
+        <p class="recordatorio">Recuerda, no es un sitio oficial, es sólo una prueba</p>
+    </footer>
+
+</body>
+
+</html>

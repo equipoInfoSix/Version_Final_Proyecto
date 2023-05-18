@@ -1,0 +1,51 @@
+p{
+    text-align: center;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#titulo{
+    font-size: 30px; text-align: left;
+    background-color: #04342C;
+    color: aliceblue;
+    width: 93%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#escudo{
+    width: 5%;
+    background-color: #04342C;
+}
+
+#primero{
+    font-size: 15px;
+}
+
+#segundo{
+    font-size: 20px;
+}
+
+.diferencias{
+    background-color: beige;
+}
+
+.items{
+    font-style: italic;
+    padding: 2%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 65%;
+}
+
+.fca{
+    width: 8%;
+}
+

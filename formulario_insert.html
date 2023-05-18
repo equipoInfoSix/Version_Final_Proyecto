@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Insertar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="style_menu.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img id="aguila" src="images/aguila.png" alt="Escudo de México"></h1>
+            <nav>
+                <ul>
+                    <li id="sistema">Sistema de Gestión de Documentación de Bancos</li>
+                    <li><a href="menu.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main_soporte">
+        <form action="Insert.php" method="POST">
+            <label>Numero de Sucursal: </label>
+            <input type="text" name="noSucursal" required placeholder="Ej. 2765">
+
+            <label>Convenio: </label>
+            <input type="text" name="convenio" required placeholder="Ej. SDN123">
+
+            <label>Etapa: </label>
+            <input type="text" name="etapa" required placeholder="Ej. 2">
+
+            <label>R.M.: </label>
+            <input type="text" name="rm" required placeholder="Ej. I R. M. EL CHIVATITO, CD. MEXICO">
+
+            <label>Z.M.: </label>
+            <input type="text" name="zm" required placeholder="Ej. 18 a. Z. M. PACHUCA, HGO.">
+
+            <label>Estátus: </label>
+            <input type="text" name="estatus" required placeholder="Ej. TERMINADO">
+
+            <label>I.R.O.: </label>
+            <input type="text" name="iro" required placeholder="Ej. MYR. I.C. MARCOS OMAR RAMIREZ GUADO">
+
+            <label>Teléfono: </label>
+            <input type="text" name="tel" required placeholder="Ej. -XX-XX-XX-XX">
+
+            <label>Mes Programado: </label>
+            <input type="text" name="mesProgramado" required placeholder="Ej. 06">
+
+            <label>Fecha meta de finalización: </label>
+            <input type="text" name="mesTerminado" required placeholder="Ej. 2017-06-15">
+
+            <label>Proveedor de conectividad: </label>
+            <input type="text" name="proveedorConect" required placeholder="Ej. Telmex">
+
+            <label>Centro de Costos: </label>
+            <input type="text" name="centroCostos" required placeholder="Ej. 1115">
+
+            <label>Código Postal: </label>
+            <input type="text" name="cp" required placeholder="Ej. 11200">
+
+            <label>Clave SDN: </label>
+            <input type="text" name="claveSDN" required placeholder="Ej. 23456798">
+
+            <label>SND: </label>
+            <input type="text" name="snd" required placeholder="Ej. 1">
+
+            <label>NTE: </label>
+            <input type="text" name="nte" required placeholder="Ej. 1">
+
+            <label>INFTCA: </label>
+            <input type="text" name="inftca" required placeholder="Ej. 1">
+
+            <label>ATM: </label>
+            <input type="text" name="atm" required placeholder="Ej. 1">
+
+            <label>TELMEX: </label>
+            <input type="text" name="telmex" required placeholder="Ej. 2">
+
+            <label>CFE: </label>
+            <input type="text" name="cfe" required placeholder="Ej. 1">
+
+            <label>Llaves: </label>
+            <input type="text" name="llaves" required placeholder="Ej. 2">
+
+            <label>Vigilancia: </label>
+            <input type="text" name="vigilancia" required placeholder="Ej. 1">
+
+            <label>Agua: </label>
+            <input type="text" name="agua" required placeholder="Ej. 2">
+
+            <label>Luz: </label>
+            <input type="text" name="luz" required placeholder="Ej. 1">
+
+            <label>Drenaje: </label>
+            <input type="text" name="drenaje" required placeholder="Ej. 1">
+
+            <label>Planta de emergencia: </label>
+            <input type="text" name="plantaEmergencia" required placeholder="Ej. 1">
+
+            <label>UPS: </label>
+            <input type="text" name="ups" required placeholder="Ej. 1">
+
+            <label>Caja chica: </label>
+            <input type="text" name="cajaChica" required placeholder="2">
+
+            <label>Caja Grande: </label>
+            <input type="text" name="cajaGrande" required placeholder="1">
+
+            <label>Nombre de sucursal: </label>
+            <input type="text" name="nombreSucursal" required placeholder="Ej. Sucursal10">
+
+            <label>Entidad: </label>
+            <input type="text" name="entidad" required placeholder="Ej. Guerrero">
+
+            <label>Municipio: </label>
+            <input type="text" name="municipio" required placeholder="Ej. Olivos">
+
+            <label>Localidad: </label>
+            <input type="text" name="localidad" required placeholder="Ej. Sur">
+
+            <label>Calle: </label>
+            <input type="text" name="calle" required placeholder="Ej. Panteón francés">
+
+            <label>Número exterior: </label>
+            <input type="text" name="noExterior" required placeholder="Ej. 232">
+
+            <label>Colonia: </label>
+            <input type="text" name="colonia" required placeholder="Ej. Suiza">
+
+            <label>Entre calle: </label>
+            <input type="text" name="entreCalle" required placeholder="Ej. Av. Aztecas">
+
+            <label>Y calle: </label>
+            <input type="text" name="yCalle" required placeholder="Ej. Av. Las Palmas">
+
+            <label>Referencias: </label>
+            <input type="text" name="referencias" required placeholder="Ej. A lado de Ovelizco 27">
+
+            <label>Latitud: </label>
+            <input type="text" name="latitud" required placeholder="Ej. 72464352">
+
+            <label>Longitud: </label>
+            <input type="text" name="longitud" required placeholder="Ej. 1323432">
+
+           
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+        </form>
+
+       
+    </main>
+
+    <footer>
+        <img class="final" src="images/admin.png">
+        <p class="recordatorio">Recuerda, no es un sitio oficial, es sólo una prueba</p>
+    </footer>
+
+</body>
+
+</html>
